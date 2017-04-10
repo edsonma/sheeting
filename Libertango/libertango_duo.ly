@@ -66,13 +66,38 @@ clarinetSheet = {
   cis1 ( |
   cis1 ) |
   e1 ( |
-  e2 e8 d cis b ) |
-  cis1 ( |
-  cis1 ) |
-  e1 ( |
   e2 d8 cis b ais ) |
   b1 ( |
-  b2 b8) fis b cis |
+  b1 ) |
+  d1 ( |
+  d4. ) cis8 d cis d b |
+  cis1 ( |
+  cis1 ) |
+  cis8 b ( cis2.  |
+  cis2 cis8) d8 cis b |
+  cis1 ( |
+  cis2. ) fis,8 g|
+  a2. (a8) cis,16 b |
+  ais8 b fis'8-. a g16 fis16-. e4 fis8 |
+  g1 ( |
+  g2 g8) dis8 e fis|
+  g16 fis16 g8 (g2) gis,8 a |
+  bes a g a a'16 g fis4 e8 |
+  fis1 |
+  fis16 g gis a ais b bis cis d dis e eis fis4 |
+  fis,8 b cis fis, b d fis, b |
+  e8 fis, b fis' e d cis b |
+  cis1 (|
+  cis1 )|
+  e,8 g b e, g cis e, g | 
+  b e, ais e' d cis b a |
+  b1 (|
+  b1)
+  
+  
+  
+  
+  
   
   
   
