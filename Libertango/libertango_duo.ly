@@ -10,7 +10,7 @@
 
 defaultSetup = { 
     \tempo 4 = 115
-    \time 4/4
+    \time 4/4    
 }
 
 defaultKey = {
@@ -28,9 +28,63 @@ clarinetSheet = {
   r8~^"accel.-------------------------" e,(fis) e  cis' g4.  |
   e8 fis e4 e'2 |
   r8 d,(e) d b' fis4. |
-  d8 e d d'2
- 
-  \tempo "Allegro" 4 = 126
+  d8 e d4 d'2 |
+  r8~^"tempo=126" fis,(g-.) fis-. g(fis-.) d'(b-.) |
+  r8 fis(g-.)fis d'(b-.) fis(g-.) |
+  r8 eis(fis-.) eis-. fis(eis-.) cis'(gis-.) |
+  r8 eis(fis-.) eis-. cis'(gis-.) eis(fis-.) |
+  r8 e(fis-.) e-. fis(e-.) cis'(g-.) |
+  r8 e(fis-.) e-. cis'(g-.) e(fis-.) |
+  r8 d(e-.) d-. e(d-.) b'(fis-.) |
+  r8 d(e-.) d-. b'(fis-.) d(e-.)|
+  r8 d(e-.) d-. e(d-.) b'(fis-.) |
+  r8 d(e-.) d-. b'(fis-.) d(e-.) |
+  r8 d(e-.) d-. e(d-.) b'(fis-.) |
+  r8 d(e-.) d-. b'(fis-.) d(e-.) |
+  r8 cis(d-.) cis-. d(cis-.) ais'(fis-.) |
+  r8 cis(d-.) cis-. ais'(fis-.) cis(d-.) |
+  r8 cis(d-.) cis-. d(cis-.) ais'(e-.) |
+  r8 cis(d-.) cis-. ais'(e-.) cis(d-.) |
+  r8 fis(g-.) fis-. g(fis-.) d'(b-.) |
+  r8 fis(g-.) fis-. d'(b-.) fis(g-.)|
+  r8 eis(fis-.) eis-. fis(eis-.) cis'(gis-.) |
+  r8 eis(fis-.) eis-. cis'(gis-.) eis(fis-.) |
+  r8 e(fis-.) e-. fis(e-.) cis'(g-.) |
+  r8 e(fis-.) e-. cis'(g-.) e(fis-.) |
+  r8 d(e-.) d-. e(d-.) b'(fis-.) |
+  r8 d(e-.) d-. b'(fis-.) d(e-.) |
+  r8 d(e-.) d-. e(d-.) b'(fis-.) |
+  r8 d(e-.) d-. b'(fis-.) d(e-.) |
+  r8 d(e-.) d-. e(d-.) b'(eis,-.) |
+  r8 d(e-.) d-. b'(eis,-.) d(e-.) |
+  r8 cis(d-.) cis-. d(cis-.) ais'(fis-.) |
+  r8 cis(d-.) cis-. ais'(fis-.) cis(d-.) |
+  r8 cis(d-.) cis-. d(cis-.) ais'(fis-.) |
+  r8 cis d(cis-.) g'(fis-.) d'(cis-.) |
+  fis1 ( |
+  fis4.) r8 e d cis b |
+  cis1 ( |
+  cis1 ) |
+  e1 ( |
+  e2 e8 d cis b ) |
+  cis1 ( |
+  cis1 ) |
+  e1 ( |
+  e2 d8 cis b ais ) |
+  b1 ( |
+  b2 b8) fis b cis |
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 }
 
