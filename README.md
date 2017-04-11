@@ -14,10 +14,10 @@ LilyPond is a music engraving program, devoted to producing the highest-quality 
 * Summary of set up
 Install lilypond and frescobaldi 
 
-(Linux)
+** (Linux)
    apt-get install lilypond frescobaldi
 
-(Windows)
+** (Windows)
    Install: https://github.com/wbsoft/frescobaldi/releases/download/v3.0.0/Frescobaldi.Setup.3.0.0-2.exe
 
 * Deploy
