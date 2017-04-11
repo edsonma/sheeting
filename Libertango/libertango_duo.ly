@@ -8,9 +8,14 @@
     instrument = "Clarinet"
 }
 
+\paper {
+        top-margin = 30
+        bottom-margin = 20
+}
+     
 defaultSetup = { 
     \tempo 4 = 115
-    \time 4/4    
+    \time 4/4      
 }
 
 defaultKey = {
@@ -94,23 +99,22 @@ clarinetSheet = {
   b1 (|
   b1)
   
+  \repeat volta 2 { 
+    r8~^"2x crescendo e accelerando " fis(g-.) fis-. g(fis-.) d' (b-.) |
+    r8 fis(g-.) fis-. d'(b-.) fis(g-.) |
+    r8 eis(fis-.) eis-. fis(eis-.) cis'(gis-.) |
+    r8 eis(fis-.) eis cis'(gis-.) eis(fis-.) |
+    r8 e(fis-.) e-. fis(e-.) cis'(g-.) |
+    r8 e(fis-.) e-. cis'(g-.) e(fis-.) |
+    r8 d(e-.) d-. e(d-.) b'(fis-.) 
+  }
   
+  \alternative {
+     { r8 d(e-.) d-. b'(fis-.) d(e-.) }
+     { r8 d(e-.) d-. \<b'2~^"  ... ff" \!}
+  } 
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  \bar "|."
 }
 
 violonceloSheet = {
