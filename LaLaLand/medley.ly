@@ -14,7 +14,7 @@
      
 defaultSetup = { 
     \tempo 4 = 80
-    \time 3/4      
+    \time 3/4   
 }
 
 defaultKey = {
@@ -37,7 +37,7 @@ clarinetSheet = {
   c'8 b a b a g |
   e2 fis4 |
   b2.|
-    r1.|
+  r |
   e8 d c d c b |
   a2.|
   fis'8  e dis c b a |
@@ -71,27 +71,45 @@ clarinetSheet = {
   bes,4 e g g8 c, | 
   r8 e8 g4 c bes |
   a4 f d d8 a'8 |
+  r8 a8 e4 d d |
+  e4 c a a8 e'|
+  r8 e8 c4 a a |
+  
+  r1^100^Swing |
+  r1 |
+  g8(a bes d2) r8|
+  r4 e8 f d e c d |
+  a2. r4|
+  r1 |
+  g8(a bes d2) r8|
+  r4 e8 f d e c d |
+  a2. r4|
+  r2 r4 a' |
+  bes1 |
+  r8 d(c d c d c d) |
+  a4. a8 a4 a8 a8( |
+  a2..) r8 |
+  \appoggiatura a8 g r4 r1 |
+  \appoggiatura d8 cis4 r4 r1 |
+  d'4 d d8 c d e (
+  e4) r4 e8 d e e ( |
+  e4) r4 e8 d e f (|
+  f8) f e e d c r8 a |
   
   
-  
-  
-  
-  
-  
-  
+
 }  
-  
-  
-  
-  
-}
+
 
 clarinet =
-\relative c' {
+{
     \defaultSetup
     \clef treble
     \defaultKey
-    \clarinetSheet
+    
+    \relative c'{
+        \clarinetSheet
+    }
 }
 
 \score {
