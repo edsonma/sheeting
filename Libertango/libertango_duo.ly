@@ -1,13 +1,5 @@
 \version "2.18.2"
 
-\header {
-    title= "Libertango"
-    composer = "Astor Piazolla"
-    arranger = "Fernanda Bernardes"
-%   instrument = "Violoncelo"
-    instrument = "Clarinet"
-}
-
 \paper {
         top-margin = 30
         bottom-margin = 20
@@ -30,11 +22,11 @@ clarinetSheet = {
   r8 eis,(fis) eis cis' gis4. |
   eis8 fis eis4 eis'2 |
   
-  r8~^"accel.-------------------------" e,(fis) e  cis' g4.  |
+  r8^"accel.-------------------------" e,(fis) e  cis' g4.  |
   e8 fis e4 e'2 |
   r8 d,(e) d b' fis4. |
   d8 e d4 d'2 |
-  r8~^"tempo=126" fis,(g-.) fis-. g(fis-.) d'(b-.) |
+  r8^"tempo=126" fis,(g-.) fis-. g(fis-.) d'(b-.) |
   r8 fis(g-.)fis d'(b-.) fis(g-.) |
   r8 eis(fis-.) eis-. fis(eis-.) cis'(gis-.) |
   r8 eis(fis-.) eis-. cis'(gis-.) eis(fis-.) |
@@ -100,7 +92,7 @@ clarinetSheet = {
   b1)
   
   \repeat volta 2 { 
-    r8~^"2x crescendo e accelerando " fis(g-.) fis-. g(fis-.) d' (b-.) |
+    r8^"2x crescendo e accelerando" fis(g-.) fis-. g(fis-.) d' (b-.) |
     r8 fis(g-.) fis-. d'(b-.) fis(g-.) |
     r8 eis(fis-.) eis-. fis(eis-.) cis'(gis-.) |
     r8 eis(fis-.) eis cis'(gis-.) eis(fis-.) |
@@ -118,7 +110,55 @@ clarinetSheet = {
 }
 
 violonceloSheet = {
- % Cello starts pizzicanto
+  % Cello starts with Pizzicato
+  <a e' a>1\arpeggio ( |
+  <a e' a>2.\arpeggio ) r4 |
+  <a ees' a>1\arpeggio ( | 
+  <a ees' a>2.\arpeggio ) r4 |
+  <a d a'>1\arpeggio ( |
+  <a d a'>2.\arpeggio ) r4 |
+  <a c a'>1\arpeggio ( |
+  <a c a'>2.\arpeggio ) r4 |
+  <a e' a>1\arpeggio ( |
+  <a e' a>2.\arpeggio ) r4 | 
+  <a ees' a>1\arpeggio ( | 
+  <a ees' a>2.\arpeggio ) r4 |
+  <a d a'>1\arpeggio^"accel.-------------------------"  ( |
+  <a d a'>2.\arpeggio ) r4 |
+  <a c a'>1\arpeggio ( |
+  <a c a'>2.\arpeggio ) r4 |  
+  
+  a4.-. e'4.-. a,4-. | 
+  a4.-. e'4.-. a,4-. | 
+  a4.-. fis'4.-. a,4-. | 
+  a4.-. fis'4.-. a,4-. | 
+  a4.-. f'4.-. a,4-. |
+  a4.-. f'4.-. a,4-. |
+  a4.-. e'4.-. a,4-. | 
+  a4.-. e'4.-. a,4-. |
+  g4.-. e'4.-. g,4-. | 
+  g4.-. e'4.-. g,4-. |
+  fis4.-. ees'4.-. fis,4-. | 
+  fis4.-. ees'4.-. fis,4-. |
+  f4.-. d'4.-. f,4-. | 
+  f4.-. d'4.-. f,4-. |
+  e4.-. gis'4.-. e,4-. |
+  e4.-. gis'4.-. e,4-. |
+  
+  e''1( | 
+  e4.) r8 d c b a |
+  b1 (|
+  b1 )|
+  d1(|
+  d2) c8 b a gis | 
+  a1 (a2 a8) e8 a b | 
+  
+  c1(c4.) b8 c b c a |
+  b1 |
+  
+  
+  
+  
 }
 
 clarinet =
@@ -133,12 +173,29 @@ violoncelo =
 \relative c {
     \defaultSetup
     \clef bass
-    \defaultKey
     \violonceloSheet
 }
-
-\score {
-%   \violoncelo
-    \clarinet
+\bookpart {
+    \header {
+        title= "Libertango"
+        composer = "Astor Piazolla"
+        arranger = "Fernanda Bernardes"
+        instrument = "Clarinet"
+    }
+    
+    \score {
+        \clarinet    
+    }
 }
 
+\bookpart{
+    \header {
+        title= "Libertango"
+        composer = "Astor Piazolla"
+        arranger = "Fernanda Bernardes"
+        instrument = "Violoncelo"
+    }
+    \score {
+        \violoncelo
+    }
+}
