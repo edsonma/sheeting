@@ -89,12 +89,45 @@ clarinetSheet = {
   r8 d(c d c d c d) |
   a4. a8 a4 a8 a8( |
   a2..) r8 |
-  \appoggiatura a8 g r4 r1 |
-  \appoggiatura d8 cis4 r4 r1 |
+  \grace a8 g4 r4 r2 |
+  \grace d8 cis4 r4 r2 |
   d'4 d d8 c d e (
   e4) r4 e8 d e e ( |
   e4) r4 e8 d e f (|
   f8) f e e d c r8 a |
+  d4 d4 d4 d8 e ( |
+  e4 )  e8 r8 e d e a, |
+  a8 f e4 d8 g d a' |
+  a8 d, a'4 g8 a g f |
+  d'4 d d8 c d e ( |
+  e4) r4 e8  d e e(
+  e4 ) r4 e8 d e f (
+  f8) f e e d c r8 a | 
+  d4 d d d8 e ( |
+  e2\fermata ) r2 |
+  r4 d8 e a g e d 
+  
+  \key c \major
+  \time 3/4
+  d2. |
+  e2. |
+  c2. ( | 
+  c2. )  |
+  b2. ( |
+  b2.) |
+  a2. ( |
+  a2. ) |
+  g2. |
+  c4 d e |
+  c2. ( |
+  c2. ) | 
+  b2. ( |
+  b2. ) |
+  a2. ( |
+  a2. ) |
+  g2. |
+  r2 |
+  
   
   
 
