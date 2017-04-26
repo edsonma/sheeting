@@ -126,9 +126,28 @@ clarinetSheet = {
   a2. ( |
   a2. ) |
   g2. |
-  r2 |
+  r |
+  b4 d4. b'8 |
+  e,2 c4  |
+  a'2. ( | 
+  a2. ) |
+  b,4 d4. b'8 |
+  e,2 c4 |
+  a'2. ( |
+  a2. ) | 
+  b,4 d4. b'8 |
+  e,2 c4 |
+  a'2. ( |	
+  a2. ) | 
+  b,4 d4. b'8 |
+  e,2 c4 |
+  a'2. ( |
+  a2. ) | 
+  b,4^"rallentando..." d4. b'8 | 
+  e,2 c4 |
+  f2.\fermata
   
-  
+  \bar "|."
   
 
 }  
