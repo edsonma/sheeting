@@ -165,5 +165,5 @@ clarinet =
 }
 
 \score {
-    \clarinet
+    \transpose g a \clarinet
 }
