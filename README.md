@@ -21,4 +21,4 @@ Install lilypond and frescobaldi
   Install: https://github.com/wbsoft/frescobaldi/releases/download/v3.0.0/Frescobaldi.Setup.3.0.0-2.exe
 
 * Deploy
-   under frescobaldi ctrl+m for preview and ctrl+shift+p to generate sheet
+   under frescobaldi ctrl+m for preview and ctrl+shift+p to generate sheet# sheeting
